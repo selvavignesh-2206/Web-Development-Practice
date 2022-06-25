@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form creation practice</title>
+</head>
+
+<body>
+    <main>
+        <h1>Forms Practice</h1>
+
+        <form action="/tacos">
+
+            <!--A button that does not submit the whole form due to the type = "button"-->
+            <button type="button">Do not press this button</button>
+
+            <p>
+                <label for="username">Enter username:</label>
+                <input type="text" name="username" id="username" placeholder="username">
+            </p>
+
+            <p>
+                <label for="password">Enter password:</label>
+                <input type="password" name="password" id="password" placeholder="password">
+            </p>
+
+            <p>
+                <label for="color">Choose colour:</label>
+                <input type="color" name="color" id="color">
+            </p>
+
+            <p>
+                <label for="number">Enter PIN number:</label>
+                <input type="number" name="number" id="number" placeholder="PIN Number">
+            </p>
+
+            <!--A button that submits the whole form due to not having a specific type or having a type of "submit"-->
+            <button>Submit</button>
+
+        </form>
+
+        <hr>
+
+        <!--Button outside the form have no default action-->
+        <button>Outside the form</button>
+
+        <hr>
+
+        <form action="https://www.reddit.com/search">
+
+            <label for="search">What you want to search about in Reddit?</label>
+            <input type="text" name="q" id="search">
+
+            <button type="submit">Search Reddit</button>
+
+        </form>
+
+        <hr>
+
+        <p>
+        <form action="https://www.youtube.com/results">
+
+            <label for="youtube">What you want to search in Youtube?</label>
+            <input type="text" name="search_query" id="youtube">
+
+            <button type="submit">Search Youtube</button>
+
+        </form>
+        </p>
+
+        <hr>
+
+        <h2>Checkbox</h2>
+
+        <div>
+            <form action="/birds">
+                <input type="checkbox" name="agree_tos" id="agree" checked>
+                <label for="agree">I agree to everything</label>
+
+                <h3>Choose your size</h3>
+                <p>
+                    <input type="radio" name="size" id="32" value="32">
+                    <label for="32">32</label>
+                    <input type="radio" name="size" id="34" value="34">
+                    <label for="34">34</label>
+                    <input type="radio" name="size" id="36" value="36">
+                    <label for="36">36</label>
+                </p>
+
+                <p>
+                    <label for="meal">Please select a meal type</label>
+                    <select name="meal" id="meal">
+                        <option value="Veg">Veg</option>
+                        <option value="Non-Veg" selected>Non-Veg</option>
+                        <option value="No meals">No Meal</option>
+                    </select>
+                </p>
+
+                <div>
+                    <label for="cheese">Amount of cheese:</label>
+                    <input type="range" name="cheese_level" id="cheese" min="0" max="100" step="5" value="75">
+                </div>
+
+                <div>
+                    <h3>Story Time</h3>
+
+                    <label for="story">Tell me your story</label>
+                    <br>
+                    <textarea name="story" id="story" cols="30" rows="10" placeholder="Type it here"></textarea>
+                </div>
+                <button>Submit</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
