@@ -114,6 +114,19 @@
                 <button>Submit</button>
             </form>
         </div>
+
+        <dir>
+            <h2>Form Validation demo</h2>
+            <form action="/first">
+                <label for="first">Enter your first name:</label>
+                <input type="text" name="first" id="first" required>
+                <p>
+                    <label for="username">Enter your username</label>
+                    <input type="text" name="username" id="username" required minlength="5" maxlength="20">
+                </p>
+                <button type="submit">Submit</button>
+            </form>
+        </dir>
     </main>
 </body>
 
