@@ -1,3 +1,13 @@
+h1 {
+    text-align: center;
+    width: 50%;
+    font-weight: 400;
+    text-decoration: blue dotted underline;
+    letter-spacing: 10px;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 h2 {
     color: #5FCFFC;
     background-color: rgb(89, 151, 0);
@@ -10,4 +20,10 @@ button {
 
 p {
     color: brown;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
 }
