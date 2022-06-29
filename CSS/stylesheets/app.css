@@ -1,0 +1,25 @@
+/* * {
+    background-color: pink;
+} */
+
+body {
+    background-color: #fefae0;
+}
+
+button {
+    font-size: larger;
+    background-color: #ffafcc;
+}
+
+h1,
+h2 {
+    color: #bde0fe;
+}
+
+#signUp {
+    background-color: #a2d2ff;
+}
+
+.spans {
+    color: #219ebc;
+}

@@ -5,7 +5,9 @@ h1 {
     text-decoration: blue dotted underline;
     letter-spacing: 10px;
     font-size: 80px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Segoe UI, Arial;
+    /* In font family, you can set multiple different fonts. If the first one is not avaiable then the next font will be applied */
+    /* You can type a family of font like fantasy or monspace, the browser will pick the avaible font from the family */
 }
 
 h2 {
