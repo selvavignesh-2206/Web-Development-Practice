@@ -1,0 +1,7 @@
+.square:nth-last-of-type(2n) {
+    background-color: black;
+}
+
+.square:nth-last-of-type(2n-1) {
+    background-color: red;
+}

@@ -23,3 +23,37 @@ h2 {
 .spans {
     color: #219ebc;
 }
+
+input+button {
+    background-color: pink;
+}
+
+h2+button {
+    font-size: 20px;
+}
+
+footer>a {
+    color: lightblue;
+}
+
+input[type="password"] {
+    color: green;
+}
+
+a[href*="google"] {
+    color: darkgoldenrod;
+}
+
+button:hover {
+    background-color: darkred;
+    color: white;
+}
+
+.post button:hover {
+    background-color: black;
+    color: white;
+}
+
+button:active {
+    background-color: orange;
+}
