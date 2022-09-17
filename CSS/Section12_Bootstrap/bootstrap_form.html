@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>Forms</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h1 class="display-1 text-center text-bg-dark">Form</h1>
+        <form action="#nowhere">
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="form-control" placeholder="email">
+                </div>
+                <div class="col-md-6">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" class="form-control" placeholder="password">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+            </div>
+            <!--form-group is old outdated. Check v5.2 bootstrap docs-->
+            <div class="row g-3">
+                <div class="col">
+                    <label for="inputCity" class="form-label">City</label>
+                    <input type="text" class="form-control" id="inputCity" placeholder="City">
+                </div>
+
+                <div class="col">
+                    <label for="state">State</label>
+                    <select class="form-control" type="state" id="state">
+                        <option value="AL">Alabama</option>
+                        <option value="AK">Alaska</option>
+                </div>
+            </div>
+            <!--
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                            Sign Me Up
+                        </label>
+                    </div>
+                </div>
+            
+                <div class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" disabled>
+                        <label class="form-check-label" for="defaultCheck2">
+                            Disabled checkbox
+                        </label>
+                    </div>
+                </div>
+            -->
+
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
